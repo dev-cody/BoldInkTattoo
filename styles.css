@@ -14,10 +14,34 @@
 /* Main Styles */
 
 
+h5 {
+    color: #B64328;
+}
+
 /* Class Styles */
 
 .brand {
     width: 400px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.footerlinks {
+    color:white;
+}
+
+.footerlinks:hover {
+    transition-duration: .3s;
+    font-size: 18px;
+    color: #B64328;
 }
 
 .jumbotron {
@@ -31,12 +55,25 @@
     margin-bottom: 0;
 }
 
+.latestwork{
+    text-align: center;
+    margin-top: 2%;
+}
+
 .logo{
     width: 200px;
 }
 
 .navbar {
     background-image: url(/images/Navbar.png);
+}
+
+.site-footer{
+    background-image: url(/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    padding: 5px;
 }
 
 /* Media */
