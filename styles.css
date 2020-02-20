@@ -24,6 +24,10 @@ h5 {
     color: #B64328;
 }
 
+p{
+    line-height: 1.6;
+}
+
 /* Class Styles */
 
 .aboutbox {
@@ -33,6 +37,10 @@ h5 {
     justify-content: center;
     align-items: center;
     padding-right: 5px;
+}
+
+.aboutparagraphy {
+    margin-bottom: 5%;
 }
 
 .artist-nav {
@@ -139,8 +147,12 @@ h5 {
 .title{
     text-align: center;
     margin-top: 2%;
+    color: #B64328;
 }
 
+.titletattooshop {
+    line-height: .5;
+}
 
 /* ID Styles */
 
