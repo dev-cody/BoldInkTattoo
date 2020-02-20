@@ -12,7 +12,13 @@
 ***********************/
 
 /* Main Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+h4 {
+    text-align: center;
+}
 
 h5 {
     color: #B64328;
@@ -57,6 +63,7 @@ h5 {
     margin-top: 2%;
 }
 
+
 .footerlinks {
     color:white;
 }
@@ -65,6 +72,11 @@ h5 {
     transition-duration: .3s;
     font-size: 18px;
     color: #B64328;
+}
+
+.footer-logo{
+    width: 150px;
+    height: auto;
 }
 
 
@@ -109,6 +121,10 @@ h5 {
     padding: 10px;
 }
 
+.tagline{
+    text-align: center;
+}
+
 
 .test-img {
     display: flex;
@@ -123,6 +139,13 @@ h5 {
 .title{
     text-align: center;
     margin-top: 2%;
+}
+
+
+/* ID Styles */
+
+#tattoocarousel li {
+    cursor: pointer;
 }
 
 /* Media */
