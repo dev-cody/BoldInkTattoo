@@ -85,6 +85,13 @@ p{
 .footer-logo{
     width: 150px;
     height: auto;
+
+}
+
+.footer-logodiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -123,6 +130,14 @@ p{
     padding: 5px;
 }
 
+.social-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #B64328;
+    
+}
 .tab-content {
     border: 1px solid #DDD;
     border-top: none;
@@ -152,6 +167,10 @@ p{
 
 .titletattooshop {
     line-height: .5;
+}
+
+.wrapper {
+    min-height: calc(100vh - 154px);
 }
 
 /* ID Styles */
