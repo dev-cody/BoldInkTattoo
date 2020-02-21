@@ -16,6 +16,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+    background-color: #B64328;;
+}
+
+button:hover{
+    background-color: white;
+    transition-duration: .25s;
+}
+
 h4 {
     text-align: center;
 }
