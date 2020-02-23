@@ -177,7 +177,7 @@ p{
 }
 
 .modal-header {
-    background-image: url(../images/Navbar.png);
+    background-image: url(/images/Navbar.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
