@@ -16,14 +16,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
-    background-color: #B64328;;
-}
-
-button:hover{
-    background-color: white;
-    transition-duration: .25s;
-}
 
 h4 {
     text-align: center;
@@ -84,6 +76,27 @@ p{
     margin-top: 2%;
 }
 
+.btn-social-icon {
+    margin: 1%;
+}
+
+.contact-button {
+    display: block;
+    border-radius: 15px;
+    background-color: #B64328;
+    color: white;
+    position: relative;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.3);
+}
+.contact-button:hover {
+    box-shadow: 0 3px rgba(0, 0, 0, 0.3);
+    top: 2px;
+}
+
+.contact-button:active {
+    box-shadow: none;
+    top: 5px;
+}
 
 .footerlinks {
     color:white;
@@ -130,10 +143,29 @@ p{
     width: 200px;
 }
 
-.navbar {
-    background-image: url(/images/Navbar.png);
+.main-body-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.modal-header {
+    background-image: url(./images/Navbar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-image: url(/images/Navbar.png);
+
+}
 
 .site-footer{
     background-image: url(/images/background.png);
@@ -184,6 +216,29 @@ p{
 
 .wrapper {
     min-height: calc(100vh - 154px);
+}
+
+
+/************************
+*       Form Styles     *
+************************/
+
+.form-control {
+    border-radius: 10px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.form-control:hover {
+    border: 2px solid #B64328;
+    transition-duration: .25s;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    top: 1px;
+}
+
+.form-control:active {
+    border: 2px solid #B64328;
+    top: 3px;
 }
 
 /* ID Styles */
