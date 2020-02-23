@@ -1,15 +1,19 @@
-/***********************
-*      Styles Sheet    *
-***********************/
+/**********************************************
+*               Styles Sheet                  *
+*   Designed and Developed by Cody Koscielski *
+**********************************************/
 
 
-/***********************
+            /***********************
+                Table of contents
 
-    1. Main Styles
-    2. Class Styles
-    3. Media
+                1. Main Styles
+                2. Class Styles
+                3. Form Styles
+                4. ID Styles
+                5. Media
 
-***********************/
+            ***********************/
 
 /* Main Styles */
 body {
@@ -45,7 +49,20 @@ p{
 }
 
 .after-care-title {
-    color: black;
+    color: #B64328;
+}
+
+.artist-img:hover{
+    transition-duration: .4s;
+    transform: scale(1.5);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.artist-img-box {
+    width: 200px;
+    height: 200px;
+    margin: 2%;
 }
 
 .artist-nav {
@@ -80,6 +97,13 @@ p{
 
 .btn-social-icon {
     margin: 1%;
+}
+
+.carefooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contact-button {
@@ -202,17 +226,6 @@ p{
     text-align: center;
 }
 
-
-.test-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    background-color: lightgray;
-    margin: 2%;
-}
-
 .title{
     text-align: center;
     margin-top: 2%;
@@ -251,6 +264,7 @@ p{
     top: 3px;
     color: black;
 }
+
 
 /* ID Styles */
 
