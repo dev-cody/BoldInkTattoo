@@ -148,7 +148,7 @@ p{
 
 
 .jumbotron {
-    background-image: url("/images/background.png");
+    background-image: url("../images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -177,7 +177,7 @@ p{
 }
 
 .modal-header {
-    background-image: url("/images/Navbar.png");
+    background-image: url("../images/Navbar.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -189,7 +189,7 @@ p{
 }
 
 .navbar {
-    background-image: url("/images/Navbar.png");
+    background-image: url("../images/Navbar.png");
 }
 
 .artist-nav-item {
@@ -199,7 +199,7 @@ p{
 }
 
 .site-footer{
-    background-image: url("/images/background.png");
+    background-image: url("../images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 2%;
