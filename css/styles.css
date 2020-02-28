@@ -111,21 +111,25 @@ p{
 }
 
 .contact-button {
+    cursor: pointer;
     display: block;
     border-radius: 15px;
     background-color: #B64328;
     color: white;
     position: relative;
     box-shadow: 0 5px rgba(0, 0, 0, 0.3);
+    transition-duration: .30s;
 }
 .contact-button:hover {
     box-shadow: 0 3px rgba(0, 0, 0, 0.3);
     top: 2px;
+    transition-duration: .25s;
 }
 
 .contact-button:active {
     box-shadow: none;
     top: 5px;
+    transition-duration: .25s;
 }
 
 .footerlinks {
@@ -203,11 +207,13 @@ p{
 }
 
 .site-footer{
-    background-image: url("../images/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #DEBD7F;
     margin-top: 2%;
     padding: 5px;
+}
+
+.footer-address {
+    color: white;
 }
 
 .social-div {
